@@ -1,0 +1,26 @@
+.color{
+    background-color:antiquewhite;
+}
+.show-style{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.show-country{
+    margin: 5px;
+    border-radius: 7px;
+    background-color: antiquewhite;
+    
+}
+#set-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-country{
+    display: flex;
+    justify-content: center;
+}
+.get-center{
+    display: flex;
+    justify-content: center;
+}

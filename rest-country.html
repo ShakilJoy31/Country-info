@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest-Country</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="rest-country.css">
+</head>
+<body>
+    <header class="container mt-4">
+        <div class="d-flex color rounded justify-content-center">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                  <form class="d-flex">
+                    <input id="search-field" class="form-control me-2" type="search" placeholder="Search Country here" aria-label="Search">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio9" autocomplete="off">
+                    <label class="btn btn-outline-success" for="btnradio9">search</label>
+
+
+
+                    <!-- <button id="btnradio9" class="btn btn-outline-success">Search</button> -->
+
+
+                  </form>
+                </div>
+              </nav>
+        </div>
+        <div class="mt-4 d-flex justify-content-center">
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <div class="mb-4 spaceing">
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary" for="btnradio1">All country</label>
+                
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio2">Asia</label>
+                
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio3">Europe</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio4">Africa</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio5">North America</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio6">South America</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio7">Oceania</label>
+
+                    <input type="radio" class="btn-check" name="btnradio" id="btnradio8" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="btnradio8">Antarctica</label>
+
+                </div>
+              </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="show-detels" class="show-style">
+        </div>
+
+        <div id="full-dtl" class="container">
+        </div>
+
+        <section id="set-center" class="center-country">
+
+        </section>
+    </main>
+
+
+
+
+
+    <script src="rest-country.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
